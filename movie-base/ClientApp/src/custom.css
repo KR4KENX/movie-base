@@ -1,0 +1,45 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.movie-card {
+    background-color: #fcfcfcaa;
+    box-shadow: 0px 8px 15px 0px rgba(205, 205, 205, 1);
+    border-radius: .5em;
+    padding: 1em;
+    width: 40%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: white;
+}
+
+.movie-card h3{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    width: 50%;
+}
+
+form input{
+    margin: .5em 0;
+}
